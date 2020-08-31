@@ -9,9 +9,8 @@
     "type": "git",
     "url": "git+https://github.com/thesystemcollective/ios.thesystem.at.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "THESYSTEMCOLLECTIVE",
+  "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/thesystemcollective/ios.thesystem.at/issues"
   },
