@@ -1,0 +1,19 @@
+{
+  "name": "ios.thesystem.at",
+  "version": "0.0.1",
+  "description": "ios test environment for thesystem.at",
+  "scripts": {
+    "start": "python3 -m http.server --directory docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesystemcollective/ios.thesystem.at.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thesystemcollective/ios.thesystem.at/issues"
+  },
+  "homepage": "https://github.com/thesystemcollective/ios.thesystem.at#readme"
+}
