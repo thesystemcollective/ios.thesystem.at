@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "ios test environment for thesystem.at",
   "scripts": {
-    "start": "python3 -m http.server --directory docs"
+    "start": "npm run dev",
+    "dev": "python3 -m http.server --directory docs"
   },
   "repository": {
     "type": "git",
