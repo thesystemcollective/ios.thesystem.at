@@ -107,6 +107,17 @@ header.main nav {
   z-index: 5000;
 }
 
+#three-gui {
+  display: none;
+}
+
+#exit-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10000;
+}
+
 /* LEAFLET */
 
 #map-container {
