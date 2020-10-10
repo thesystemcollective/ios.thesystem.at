@@ -1,10 +1,11 @@
 {
   "name": "ios.thesystem.at",
   "version": "0.0.1",
-  "description": "ios test environment for thesystem.at",
+  "description": "THESYSTEM augmented reality STAGING",
+  "private": true,
   "scripts": {
     "start": "npm run dev",
-    "dev": "python3 -m http.server --directory docs"
+    "dev": "grundstein-server --dir ./docs --port 8000 --cors '*'"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/thesystemcollective/ios.thesystem.at/issues"
   },
-  "homepage": "https://github.com/thesystemcollective/ios.thesystem.at#readme"
+  "homepage": "https://ios.thesystem.at",
+  "devDependencies": {
+    "@grundstein/gss": "github:grundstein/gss"
+  },
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    },
+    {
+      "name": "daniela weiss",
+      "github": "mslitto"
+    }
+  ]
 }
