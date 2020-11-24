@@ -1,3 +1,0 @@
-user-agent: *
-allow: /
-sitemap: https://thesystem.at/sitemap.xml
